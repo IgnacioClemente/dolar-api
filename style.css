@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(72, 135, 206);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.contendor_grafico{
+  background-color: white;
+  padding: 10px;
+  box-shadow: 8px;
+  border-radius: 20px;
+  width: 600px;
+  height: 300px;
+}
+.container h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+.container form{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+.container h3{
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}

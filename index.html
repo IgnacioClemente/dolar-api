@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="contendor_grafico">
+        <canvas id="myChart"></canvas>
+      </div>
+      <h1>Ingrese los pesos a convertir</h1>
+      <form>
+        <input type="number" id="peso" name="peso">
+        <button type="button" id="buton_peso" value="convertir">Convertir</button>
+      </form>
+      <div>
+        <h3 id="resultado"></h3>
+      </div>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
